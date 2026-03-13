@@ -1,5 +1,5 @@
 {
-  "name": "entity-linker-discord-plugin",
+  "name": "discord-entity-linker",
   "version": "2.0.0",
   "type": "module",
   "description": "Standalone Discord listener that rewrites local file paths to Entity HTTP URLs",
