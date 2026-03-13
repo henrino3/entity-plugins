@@ -1,0 +1,14 @@
+{
+  "name": "entity-linker-discord",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Standalone Discord listener that rewrites local file paths to Entity HTTP URLs",
+  "main": "discord-listener.js",
+  "scripts": {
+    "start": "node discord-listener.js",
+    "test": "node --test src/rewrite-paths.test.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}
