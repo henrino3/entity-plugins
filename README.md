@@ -1,4 +1,4 @@
-# Entity Linker
+# Entity Linker Discord Plugin
 
 A standalone Discord listener that automatically rewrites local file paths in bot messages into clickable [Entity](https://github.com/nicholasgasior/entity) HTTP URLs.
 
