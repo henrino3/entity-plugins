@@ -1,0 +1,11 @@
+{
+  "id": "entity-plugin-acp",
+  "name": "Geordi ACP Provider",
+  "version": "0.1.0",
+  "kind": "provider",
+  "description": "Swarm execution provider that dispatches jobs to Geordi ACP (Agent Coding Protocol) running on Mac.",
+  "capabilities": ["api.routes.register", "swarm.provider.register"],
+  "entrypoints": { "server": "./provider.ts" },
+  "settings": { "acpBaseUrl": "http://100.86.150.96:8100" },
+  "runtime": { "requiresRestart": true, "installTarget": "packages/server/src/swarm/providers/" }
+}
